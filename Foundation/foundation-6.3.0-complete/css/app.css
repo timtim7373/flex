@@ -1,0 +1,40 @@
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.col-wrapper > div {padding: 50%;}
+
+.col-wrapper:nth-child(1) {background: #f00;}
+.col-wrapper:nth-child(2) {background: #0f0;}
+.col-wrapper:nth-child(3) {background: #00f;}
+
+.nested-wrapper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.col-pallete .column-block > div {
+	height: 100px;
+	background: #dadada;
+}
+
+.row.header.expanded {
+	background: #dadada;
+}
+.content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline-block;
+	padding: 8px;
+}
+.small-3.column.float-right {
+	padding: 0;
+}

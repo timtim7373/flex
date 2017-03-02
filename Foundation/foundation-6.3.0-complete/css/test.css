@@ -1,0 +1,9 @@
+.container {
+  display: block;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+  background: #000;
+  bottom: 5px;
+  height: 5px;
+}

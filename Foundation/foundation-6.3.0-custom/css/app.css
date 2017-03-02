@@ -1,0 +1,41 @@
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  color: #0d113d;
+  font: 300 15px/24px 'Montserrat', sans-serif;
+}
+
+.border:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  font: 400 15px/1 'Montserrat', sans-serif;
+}
+
+{
+  transition: color ease-in-out 0.2s;
+}
